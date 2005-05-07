@@ -4,7 +4,7 @@ use Kwiki::Installer '-base';
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 const class_id => 'printer_friendly';
 const class_title => 'Printer Friendly';
