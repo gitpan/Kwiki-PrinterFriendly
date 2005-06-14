@@ -4,7 +4,7 @@ use Kwiki::Installer '-base';
 use strict;
 use warnings;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 const class_id => 'printer_friendly';
 const class_title => 'Printer Friendly';
@@ -29,6 +29,7 @@ sub printer_friendly {
   $self->render_screen(
 		       page_html => $html,
 		       screen_title => $page->title,
+		       site_title => $page->title,
 		       page_content => $content,
 		       page_time => $page->modified_time,
 		      );
