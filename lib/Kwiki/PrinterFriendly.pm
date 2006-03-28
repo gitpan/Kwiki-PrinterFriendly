@@ -4,7 +4,7 @@ use Kwiki::Installer '-base';
 use strict;
 use warnings;
 
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 const class_id => 'printer_friendly';
 const class_title => 'Printer Friendly';
@@ -120,7 +120,7 @@ __template/tt2/printer_friendly_button.html__
 </a>
 __template/tt2/printer_friendly_button_icon.html__
 <!-- BEGIN printer_button_icon.html -->
-<img src="[% printer_icon %]" alt="print" />
+<img src="icons/gnome/image/printer.png" alt="Printer Friendly" />
 <!-- END printer_button_icon.html -->
 __template/tt2/printer_friendly_screen.html__
 [%- INCLUDE kwiki_doctype.html %]
@@ -131,7 +131,7 @@ __template/tt2/printer_friendly_screen.html__
 </div>
 <!-- END printer_friendly_screen -->
 [% INCLUDE kwiki_end.html -%]
-__printer.png__
+__icons/gnome/image/printer.png__
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/
 AP+gvaeTAAAACXBIWXMAAAsRAAALEQF/ZF+RAAAAB3RJTUUH1QUCEzMZYq6w
 HgAAAeVJREFUOMutk79vUlEUxz/vPeRHUis/RsYWmdnYSMSauLTGDROaMmic

@@ -18,6 +18,8 @@ headers, toolbars, backlinks, etc. from what is normally
 displayed.  Should cut down on the number of trees killed in the
 name of Kwiki.
 
+After installing remember to run kwiki -update in your kwiki directory
+
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2005 by Henry Laxen

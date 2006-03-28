@@ -1,5 +1,10 @@
 Revision history for Perl extension PrinterFriendly.
 
+version: 0.13
+date:    Tues Mar 28, 2006
+changes:
+- moved printer icon to icons/gnome/image
+
 version: 0.12
 date:    Tues Jun 14, 2005
 changes:
